@@ -1,6 +1,6 @@
 from django.contrib.auth import get_user_model
-from rest_framework import serializers
-from rest_framework.serializers import CurrentUserDefault, ModelSerializer, ValidationError, SlugRelatedField
+from rest_framework.serializers import (CurrentUserDefault, ModelSerializer,
+                                        ValidationError, SlugRelatedField)
 
 from posts.models import Comment, Post, Follow, Group
 from rest_framework.validators import UniqueTogetherValidator

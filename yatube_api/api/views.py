@@ -1,6 +1,5 @@
 from django.contrib.auth import get_user_model
 from django.shortcuts import get_object_or_404
-from rest_framework.decorators import action
 from rest_framework.permissions import (IsAuthenticated,
                                         IsAuthenticatedOrReadOnly)
 from rest_framework.viewsets import ModelViewSet, ReadOnlyModelViewSet
@@ -10,7 +9,7 @@ from rest_framework.filters import SearchFilter
 from .permissions import IsAuthorOrReadOnly
 from .serializers import (PostSerializer, CommentSerializer, FollowSerializer,
                           GroupSerializer)
-from posts.models import Follow, Group, Post
+from posts.models import Group, Post
 
 
 User = get_user_model()
