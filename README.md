@@ -163,7 +163,7 @@ POST /api/v1/jwt/verify/ - checking the JWT token
 Pagination is also implemented in the API project (LimitOffsetPagination):
 ```bash
 GET /api/v1/posts/?limit=5&offset=0 - pagination for 5 posts, starting from the first
-
+```
 
 ## Documentation
 
