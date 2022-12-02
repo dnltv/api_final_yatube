@@ -3,7 +3,7 @@ Final project of the 9th Sprint of the Yandex.Practicum course
 
 
 ## Overwiew
-API for the <a href="https://github.com/dnltv/hw05_final">Yatube</a> project. A web service for creating/editing/deleting posts. 
+API for the <a href="https://github.com/dnltv/hw05_final">Yatube</a> project - the web service for creating/editing/deleting posts. 
 The possibility of subscribing to authors has been implemented.
 
 
