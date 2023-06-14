@@ -89,34 +89,37 @@ To create a publication:
 ```bash
 POST /api/v1/posts/
 ```
-body
+```json
 {
 "text": "string",
 "image": "string",
 "group": 0
 }
+```
 
 Update:
 ```bash
 PUT /api/v1/posts/{id}/
 ```
-body
+```json
 {
 "text": "string",
 "image": "string",
 "group": 0
 }
+```
 
 Partial update:
 ```bash
 PATCH /api/v1/posts/{id}/
 ```
-body
+```json
 {
 "text": "string",
 "image": "string",
 "group": 0
 }
+```
 
 Delete:
 ```bash
@@ -142,7 +145,7 @@ which can be obtained by executing a POST request at:
 POST /api/v1/jwt/create/
 ```
 By passing user data to the body (for example, to postman):
-```bash
+```json
 {
 "username": "string",
 "password": "string"
